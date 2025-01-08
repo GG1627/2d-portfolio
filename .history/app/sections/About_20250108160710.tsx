@@ -126,7 +126,7 @@ const About: React.FC = () => {
                 watching soccer and cruising around in my Mustang. Music is a
                 big part of my life, and I love discovering new songs and
                 artists that match my mood. Spending quality time with friends
-                and family is also something I deeply value, whether it&apos;s
+                and family is also something I deeply value, whether it's
                 sharing a meal, watching a game, or just catching up on life.
               </p>
             </div>

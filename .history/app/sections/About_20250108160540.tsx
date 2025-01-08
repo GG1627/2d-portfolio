@@ -1,6 +1,7 @@
 "use client";
 import React, { Fragment, useState } from "react";
 import StarIcon from "../assets/star.svg";
+import Image from "next/image";
 
 const About: React.FC = () => {
   const slidingText = [
@@ -28,7 +29,7 @@ const About: React.FC = () => {
     >
       {/* Left Section: Profile Picture */}
       <div className="flex-grow md:flex-grow-0 md:basis-1/2 flex items-center justify-center">
-        <img
+        <Image
           src="/images/pic.jpg"
           alt="Gael's Picture"
           className="w-[90%] h-auto md:w-[80%] md:h-auto rounded-md object-cover shadow-lg"
@@ -126,7 +127,7 @@ const About: React.FC = () => {
                 watching soccer and cruising around in my Mustang. Music is a
                 big part of my life, and I love discovering new songs and
                 artists that match my mood. Spending quality time with friends
-                and family is also something I deeply value, whether it&apos;s
+                and family is also something I deeply value, whether it's
                 sharing a meal, watching a game, or just catching up on life.
               </p>
             </div>
