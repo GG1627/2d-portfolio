@@ -32,7 +32,7 @@ const About: React.FC = () => {
         <Image
           src="/images/pic.jpg"
           alt="Gael's Picture"
-          className="w-[65%] h-auto md:w-[65%] md:h-auto rounded-md object-cover shadow-lg"
+          className="w-[60%] h-auto md:w-[60%] md:h-auto rounded-md object-cover shadow-lg"
           width={500} // Add the width of the image (in pixels)
           height={500} // Add the height of the image (in pixels)
         />

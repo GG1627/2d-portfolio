@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-import scrollbarHide from "tailwind-scrollbar-hide";
 
 export default {
   content: [
@@ -40,5 +39,5 @@ export default {
       xl: "1280px",
     },
   },
-  plugins: [scrollbarHide],
+  plugins: [],
 } satisfies Config;

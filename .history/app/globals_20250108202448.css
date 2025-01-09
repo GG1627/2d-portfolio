@@ -23,6 +23,6 @@ body {
   scrollbar-width: thin; /* Makes the scrollbar thinner */
 }
 
-*::-webkit-scrollbar {
-  width: 0px; /* Set the width of the scrollbar */
+body::-webkit-scrollbar {
+  width: 50px; /* Set the width of the scrollbar */
 }

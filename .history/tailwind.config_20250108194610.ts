@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import scrollbarHide from "tailwind-scrollbar-hide";
+const plugin = require("tailwindcss/plugin");
 
 export default {
   content: [
@@ -40,5 +40,18 @@ export default {
       xl: "1280px",
     },
   },
-  plugins: [scrollbarHide],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".no-scrollbar::-webkit-scrollbar": {
+          display: "none",
+        },
+        ".no-scrollbar": {
+          "-ms-overflow-style": "none",
+          "scrollbar-width": "none",
+        },
+      };
+      addUtilities(newUtilities);
+    },
+  ],
 } satisfies Config;
